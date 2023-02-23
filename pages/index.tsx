@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Splash from "@/components/Splash";
+import Contact from "@/components/Contact";
 import dynamic from "next/dynamic";
 
 const Carousel = dynamic(() => import("@/components/Carousel"), {
@@ -19,6 +20,7 @@ export default function Home() {
             <main className={styles.main}>
                 <Splash />
                 <Carousel />
+                <Contact />
             </main>
         </>
     );

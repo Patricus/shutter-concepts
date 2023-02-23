@@ -9,8 +9,9 @@ function Carousel() {
     const carouselProps = {
         autoPlay: true,
         infiniteLoop: true,
-        interval: 3500,
         stopOnHover: true,
+        interval: 3500,
+        transitionTime: 600,
         showThumbs: false,
         showStatus: false,
     };

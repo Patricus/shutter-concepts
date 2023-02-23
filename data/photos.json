@@ -1,21 +1,18 @@
 [
     {
         "photo": {
-            "description": "Photo description",
             "photoURL": "/next.svg",
             "altText": "Next"
         }
     },
     {
         "photo": {
-            "description": "Photo description",
             "photoURL": "/thirteen.svg",
             "altText": "Thirteen"
         }
     },
     {
         "photo": {
-            "description": "Photo description",
             "photoURL": "/vercel.svg",
             "altText": "Vercel"
         }
