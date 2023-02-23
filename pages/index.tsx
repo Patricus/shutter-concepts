@@ -19,7 +19,9 @@ export default function Home() {
             </Head>
             <main className={styles.main}>
                 <Splash />
-                <Carousel />
+                <section className={styles.carouselSection}>
+                    <Carousel />
+                </section>
                 <Contact />
             </main>
         </>

@@ -6,3 +6,13 @@
     min-height: 100vh;
     background-image: linear-gradient(to bottom, #c9d7ec, #cedbee, #d3dfef, #d9e3f1, #dee7f2);
 }
+.carouselSection {
+    max-width: 90vw;
+    min-height: 30vh;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: 0 1px 5px 0 black;
+}
