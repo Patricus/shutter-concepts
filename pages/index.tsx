@@ -23,6 +23,9 @@ export default function Home() {
                 <meta name="msapplication-TileColor" content="#efefef" />
                 <meta name="theme-color" content="#efefef" />
                 <link rel="icon" href="/favicon.ico" />
+                <script
+                    src="https://kit.fontawesome.com/aa4f1e5e06.js"
+                    crossOrigin="anonymous"></script>
             </Head>
             <main className={styles.main}>
                 <Splash />

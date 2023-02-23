@@ -4,10 +4,10 @@ import styles from "@/styles/Splash.module.css";
 
 function Splash() {
     return (
-        <div className={styles.container}>
+        <header className={styles.container}>
             <Logo />
             <h1 className={styles.title}>Shutter Concepts</h1>
-        </div>
+        </header>
     );
 }
 

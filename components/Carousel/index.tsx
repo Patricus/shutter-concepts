@@ -16,11 +16,13 @@ function Carousel() {
         showStatus: false,
     };
     return (
-        <CarouselContainer className={styles.carousel} {...carouselProps}>
-            {data.map(({ photo }, index) => (
-                <Photo key={index} {...photo} />
-            ))}
-        </CarouselContainer>
+        <figure>
+            <CarouselContainer className={styles.carousel} {...carouselProps}>
+                {data.map(({ photo }, index) => (
+                    <Photo key={index} {...photo} />
+                ))}
+            </CarouselContainer>
+        </figure>
     );
 }
 

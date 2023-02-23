@@ -1,5 +1,36 @@
-.paragraph {
-    font-size: 1rem;
-    text-align: center;
-    margin: 15px;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: var(--border-radius);
+    max-width: 90vw;
+    padding: 10px 20px;
+    margin-top: 15px;
+    align-self: start;
+    box-shadow: 1px 1px 5px 1px black;
+}
+.icon {
+    padding: 10px;
+}
+.link {
+    box-shadow: 0 0 0 2px var(--color-highlight);
+    border-radius: var(--border-radius);
+    margin: 10px;
+    padding: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.link:hover {
+    box-shadow: 0 0 0 2px var(--color-background);
+}
+.instagram {
+    color: #e1306c;
+    font-size: calc(20px + 2vw);
+}
+.email {
+    color: rgb(206, 206, 206);
+    font-size: calc(16px + 2vw);
 }
