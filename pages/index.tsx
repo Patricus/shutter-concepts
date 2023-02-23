@@ -26,7 +26,7 @@ export default function Home() {
                 <script
                     src="https://kit.fontawesome.com/aa4f1e5e06.js"
                     crossOrigin="anonymous"
-                    async></script>
+                    defer></script>
             </Head>
             <main className={styles.main}>
                 <Splash />
