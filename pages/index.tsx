@@ -25,7 +25,8 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
                 <script
                     src="https://kit.fontawesome.com/aa4f1e5e06.js"
-                    crossOrigin="anonymous"></script>
+                    crossOrigin="anonymous"
+                    async></script>
             </Head>
             <main className={styles.main}>
                 <Splash />
