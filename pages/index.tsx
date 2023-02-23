@@ -1,12 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
-import Photo from "@/components/Photo";
-import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
-import data from "@/data/photos.json";
 import Splash from "@/components/Splash";
-
-const inter = Inter({ subsets: ["latin"] });
+import Carousel from "@/components/Carousel";
+import Footer from "@/components/Footer";
 
 export default function Home() {
     return (
@@ -19,9 +15,8 @@ export default function Home() {
             </Head>
             <main className={styles.main}>
                 <Splash />
-                {data.map(({ photo }, index) => (
-                    <Photo key={index} {...photo} alignment={index % 2 == 0} />
-                ))}
+                <Carousel />
+                <Footer />
             </main>
         </>
     );

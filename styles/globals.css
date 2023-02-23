@@ -1,5 +1,4 @@
 :root {
-    --max-width: 360px;
     --border-radius: 10px;
 }
 
@@ -15,16 +14,7 @@ body {
     overflow-x: hidden;
 }
 
-body {
-}
-
 a {
     color: inherit;
     text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-    html {
-        color-scheme: dark;
-    }
 }

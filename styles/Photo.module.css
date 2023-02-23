@@ -1,39 +1,11 @@
 .section {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
     height: 100%;
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    padding: 0 var(--spacing-xxl);
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
 }
 .photo {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.description {
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    font-size: 0.85rem;
-    max-width: var(--max-width);
-    min-width: 200px;
-    width: 25%;
-    z-index: 2;
-    font-family: var(--font-mono);
-    margin: 20px;
-}
-.left {
-    align-self: flex-end;
-}
-.right {
-    align-self: flex-start;
+    object-fit: contain;
 }
