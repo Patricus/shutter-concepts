@@ -1,6 +1,5 @@
 .carousel {
-    /* width: 100%;
-    max-width: 1500px; */
+    max-width: calc(100vh);
     height: 100%;
     background-color: gray;
 }
