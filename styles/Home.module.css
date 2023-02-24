@@ -1,6 +1,7 @@
 .main {
+    padding: 20px 5vw;
     display: grid;
-    grid-template-rows: 1fr auto 1fr;
+    grid-template-rows: 1fr auto auto;
     gap: calc(5px + 2vh);
     align-items: center;
     justify-items: center;

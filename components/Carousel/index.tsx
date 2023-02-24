@@ -14,6 +14,7 @@ function Carousel() {
         transitionTime: 600,
         showThumbs: false,
         showStatus: false,
+        swipeScrollTolerance: 50,
     };
     return (
         <figure>
