@@ -1,4 +1,6 @@
 .title {
+    max-width: 90vw;
+    text-align: center;
     font-size: calc(28px + 2vw);
     text-shadow: 1px 1px 0 black;
     box-shadow: 1px 1px 5px 1px black;

@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "react-bootstrap/Image";
 import styles from "@/styles/Contact.module.css";
 
 function Contact() {
@@ -9,13 +10,13 @@ function Contact() {
     return (
         <footer className={styles.container}>
             <article className={styles.link}>
-                <i className={`fa-solid fa-envelope ${styles.icon} ${styles.email}`}></i>
+                <Image src="email.svg" alt="Email Icon" className={styles.icon} />
                 <Link href={`mailto:${email}?subject=Photo%20shoot%20inquirey`}>
                     shutter@concepts.com
                 </Link>
             </article>
             <article className={styles.link}>
-                <i className={`fa-brands fa-instagram ${styles.icon} ${styles.instagram}`}></i>
+                <Image src="instagram.svg" alt="Instagram Icon" className={styles.icon} />
                 <Link href={instagramURL}>{instagramName}</Link>
             </article>
         </footer>
