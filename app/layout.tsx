@@ -1,7 +1,7 @@
 import "./globals.css";
 import { EB_Garamond } from "next/font/google";
 
-const garamond = EB_Garamond({ subsets: ["latin"] });
+const eb_garamond = EB_Garamond({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Shutter Concepts",
@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={garamond.className}>{children}</body>
+      <body className={eb_garamond.className}>{children}</body>
     </html>
   );
 }
