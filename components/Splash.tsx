@@ -4,7 +4,7 @@ import logo from "@/images/logo_transparent.webp";
 function Splash() {
   return (
     <div className="flex items-center mx-1 gap-1">
-      <span className="text-2xl font-bold">SHUTTER</span>
+      <span className="text-sm sm:text-2xl md:text-3xl lg:text-4xl font-bold">SHUTTER</span>
       <Image
         src={logo}
         alt="Shutter Concepts"
@@ -13,9 +13,9 @@ function Splash() {
         width={0}
         height={0}
         priority
-        className="w-48 h-auto flex-shrink bg-accent shadow-[inset_2px_10px_55px_30px_var(--background-color)] rounded-full"
+        className="w-16 sm:w-36 md:w-48 h-auto flex-shrink bg-accent shadow-[inset_1px_2px_12px_5px_var(--background-color)] sm:shadow-[inset_2px_5px_30px_18px_var(--background-color)] md:shadow-[inset_2px_10px_55px_30px_var(--background-color)] rounded-full"
       />
-      <span className="text-2xl font-bold">CONCEPTS</span>
+      <span className="text-sm sm:text-2xl md:text-3xl lg:text-4xl font-bold">CONCEPTS</span>
     </div>
   );
 }

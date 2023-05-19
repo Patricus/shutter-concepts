@@ -19,7 +19,7 @@ export default function Pictures() {
     },
   ];
   return (
-    <div className="flex flex-col gap-20 w-full">
+    <div className="flex flex-col gap-20">
       {images &&
         images.map(({ picture, text }, index) => {
           return (
@@ -28,10 +28,14 @@ export default function Pictures() {
               src={picture}
               alt={text}
               placeholder="blur"
-              blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcsXpaPQAGFgJa36wFugAAAABJRU5ErkJggg=="
+              blurDataURL={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mOcsXpaPQAGFgJa36wFugAAAABJRU5ErkJggg=="
+              }
               width={0}
               height={0}
-              priority
+              priority={index === 0}
+              loading={index !== 0 ? "lazy" : "eager"}
+              unoptimized
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               quality={100}
               style={{ objectFit: "cover" }}
