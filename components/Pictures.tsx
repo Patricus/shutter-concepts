@@ -1,7 +1,7 @@
-import Image, { StaticImageData } from "next/image";
-import leather_eye from "@/images/leather_eye.JPG";
-import mtn_hike from "@/images/mountain_hike.JPG";
-import mushrooms from "@/images/mushrooms.JPG";
+import Image from "next/image";
+import leather_eye from "@/images/leather_eye.jpg";
+import mtn_hike from "@/images/mountain_hike.jpg";
+import mushrooms from "@/images/mushrooms.jpg";
 
 export default function Pictures() {
   const images = [
@@ -35,7 +35,7 @@ export default function Pictures() {
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               quality={100}
               style={{ objectFit: "cover" }}
-              className="w-full max-w-[2048px] h-auto"
+              className="w-full max-w-[2048px] h-auto rounded-sm shadow-lg shadow-secondary"
             />
           );
         })}
