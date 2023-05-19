@@ -3,7 +3,7 @@ import logo from "@/images/logo_transparent.webp";
 
 function Splash() {
   return (
-    <div className="flex items-center mx-1 gap-1">
+    <div className="flex items-center mt-6 gap-1">
       <span className="text-sm sm:text-2xl md:text-3xl lg:text-4xl font-bold">SHUTTER</span>
       <Image
         src={logo}
