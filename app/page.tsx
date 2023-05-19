@@ -24,9 +24,11 @@ export default function Home() {
     <main className="flex w-full min-h-screen flex-col items-center justify-between gap-10 snap-y snap-proximity">
       <Splash />
       {items.map(({ picture, alt }, index) => (
-        <section className="snap-start">
+        <section
+          className="snap-start"
+          key={index}
+        >
           <Picture
-            key={index}
             picture={picture}
             alt={alt}
             priority={index === 0}

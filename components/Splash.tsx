@@ -40,9 +40,9 @@ function Splash() {
           </a>
         </div>
         <div className="w-1/2 flex flex-col">
-          Explore the stunning portfolio of Shutter Concepts, a passionate and skilled photographer
+          {`Explore the stunning portfolio of Shutter Concepts, a passionate and skilled photographer
           specializing in capturing life's moments with artistry and precision. From breathtaking
-          landscapes to intimate portraits, immerse yourself in a world of visual storytelling.
+          landscapes to intimate portraits, immerse yourself in a world of visual storytelling.`}
         </div>
         <div>
           <a
