@@ -1,5 +1,6 @@
 import Info from "@/components/Info";
 import Picture from "@/components/Picture";
+import Prices from "@/components/Prices";
 import Splash from "@/components/Splash";
 
 import leather_eye from "@/images/leather_eye.jpg";
@@ -25,7 +26,9 @@ export default function Home() {
   ];
   return (
     <main className="flex w-full min-h-screen flex-col items-center justify-between snap-y snap-proximity">
-      <Splash />
+      <section>
+        <Splash />
+      </section>
       {items.map(({ picture, alt, text }, index) => (
         <section
           className="snap-start"
@@ -39,6 +42,9 @@ export default function Home() {
           {text && <Info text={text} />}
         </section>
       ))}
+      <section className="w-full flex flex-col lg:flex-row justify-center items-center gap-5 lg:gap-14">
+        <Prices />
+      </section>
     </main>
   );
 }
