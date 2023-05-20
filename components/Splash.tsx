@@ -8,7 +8,7 @@ function Splash() {
   const instagramURL = "https://www.instagram.com/shutter_concepts?igshid=YmMyMTA2M2Y=";
   return (
     <>
-      <div className="flex items-center mt-6 gap-1">
+      <div className="flex items-center justify-center mt-6 gap-1">
         <span className="text-sm sm:text-2xl md:text-3xl lg:text-4xl font-bold">SHUTTER</span>
         <Image
           src={logo}
