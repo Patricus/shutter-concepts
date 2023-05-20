@@ -1,8 +1,15 @@
+"use client";
+import { Parallax, ParallaxProvider } from "react-scroll-parallax";
+
 function Info({ text }: { text: string }) {
   return (
-    <div>
-      <p>{text}</p>
-    </div>
+    <ParallaxProvider>
+      <div className="overflow-hidden p-10">
+        <Parallax speed={10}>
+          <p>{text}</p>
+        </Parallax>
+      </div>
+    </ParallaxProvider>
   );
 }
 
