@@ -22,7 +22,7 @@ function Splash() {
         />
         <span className="text-sm sm:text-2xl md:text-3xl lg:text-4xl font-bold">CONCEPTS</span>
       </div>
-      <div className="flex justify-evenly w-full max-w-[2048px]">
+      <div className="flex justify-evenly w-full max-w-[2048px] mb-2">
         <div>
           <a
             href={`mailto:${emailaddress}`}

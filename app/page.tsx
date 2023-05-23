@@ -25,14 +25,14 @@ export default function Home() {
     },
   ];
   return (
-    <main className="flex w-full min-h-screen flex-col items-center justify-between snap-y snap-proximity">
+    <main className="flex w-full min-h-screen flex-col items-center justify-between snap-proximity snap-y mb-5">
       <section>
         <Splash />
       </section>
       {items.map(({ picture, alt, text }, index) => (
         <section
-          className="snap-start"
           key={index}
+          className="snap-start"
         >
           <Picture
             picture={picture}
@@ -42,7 +42,7 @@ export default function Home() {
           {text && <Info text={text} />}
         </section>
       ))}
-      <section className="w-full flex flex-col lg:flex-row justify-center items-center gap-5 lg:gap-14">
+      <section className="w-full flex flex-col lg:flex-row justify-center items-center gap-5 lg:gap-14 mt-5">
         <Prices />
       </section>
     </main>

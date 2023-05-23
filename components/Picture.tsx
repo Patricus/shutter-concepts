@@ -25,7 +25,7 @@ export default function Picture({
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
       quality={100}
       style={{ objectFit: "cover" }}
-      className="w-full max-w-[2048px] h-auto rounded-sm shadow-lg shadow-secondary"
+      className="w-full max-w-[2048px] h-auto rounded-sm"
     />
   );
 }
