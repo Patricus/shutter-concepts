@@ -22,7 +22,7 @@ function Splash() {
         />
         <span className="text-sm sm:text-2xl md:text-3xl lg:text-4xl font-bold">CONCEPTS</span>
       </div>
-      <div className="flex justify-evenly w-full max-w-[2048px] mb-2">
+      <div className="flex justify-evenly items-center w-full max-w-[2048px] mb-2">
         <div>
           <a
             href={`mailto:${emailaddress}`}
@@ -38,7 +38,7 @@ function Splash() {
             </div>
           </a>
         </div>
-        <div className="w-1/2 flex flex-col">
+        <div className="w-1/2 flex flex-col text-center">
           {`Explore the stunning portfolio of Shutter Concepts, a passionate and skilled photographer
           specializing in capturing life's moments with artistry and precision. From breathtaking
           landscapes to intimate portraits, immerse yourself in a world of visual storytelling.`}
