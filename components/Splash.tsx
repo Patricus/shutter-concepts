@@ -34,7 +34,6 @@ function Splash() {
                 src={email}
                 alt="Email"
                 width={24}
-                height={24}
               />
             </div>
           </a>
@@ -55,7 +54,6 @@ function Splash() {
                 src={instagram}
                 alt="Instagram"
                 width={24}
-                height={24}
               />
             </div>
           </a>
