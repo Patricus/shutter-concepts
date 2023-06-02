@@ -2,7 +2,9 @@ function Prices() {
   return (
     <>
       <div className="text-center bg-primary p-3 rounded-sm">
-        <h2 className="text-xl font-bold">Portrait Photography</h2>
+        <h2 className="text-xl font-bold [text-shadow:_0_1px_1px_rgb(0_0_0_/_40%)]">
+          Portrait Photography
+        </h2>
         <table className="border-collapse border-spacing-0 rounded overflow-hidden bg-backgroundColor text-lg h-96">
           <thead className="bg-backgroundColor border-b-2">
             <tr>
@@ -35,7 +37,9 @@ function Prices() {
         </table>
       </div>
       <div className="text-center bg-accent p-3 rounded-sm">
-        <h2 className="text-xl font-bold">Product Photography</h2>
+        <h2 className="text-xl font-bold [text-shadow:_0_1px_1px_rgb(0_0_0_/_40%)]">
+          Product Photography
+        </h2>
         <table className="border-collapse border-spacing-0 rounded overflow-hidden bg-backgroundColor text-lg h-96">
           <thead className="bg-backgroundColor border-b-2">
             <tr>
@@ -77,7 +81,9 @@ function Prices() {
         </table>
       </div>
       <div className="text-center bg-primary p-3 rounded-sm">
-        <h2 className="text-xl font-bold">Event Photography</h2>
+        <h2 className="text-xl font-bold [text-shadow:_0_1px_1px_rgb(0_0_0_/_40%)]">
+          Event Photography
+        </h2>
         <table className="border-collapse border-spacing-0 rounded overflow-hidden bg-backgroundColor text-lg h-96">
           <thead className="bg-backgroundColor border-b-2">
             <tr>
