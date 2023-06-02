@@ -5,7 +5,7 @@ function Prices() {
         <h2 className="text-xl font-bold [text-shadow:_0_1px_1px_rgb(0_0_0_/_40%)]">
           Portrait Photography
         </h2>
-        <table className="border-collapse border-spacing-0 rounded overflow-hidden bg-backgroundColor text-lg h-96">
+        <table className="border-collapse border-spacing-0 rounded overflow-hidden bg-backgroundColor text-sm sm:text-lg">
           <thead className="bg-backgroundColor border-b-2">
             <tr>
               <th>Package</th>
@@ -40,7 +40,7 @@ function Prices() {
         <h2 className="text-xl font-bold [text-shadow:_0_1px_1px_rgb(0_0_0_/_40%)]">
           Product Photography
         </h2>
-        <table className="border-collapse border-spacing-0 rounded overflow-hidden bg-backgroundColor text-lg h-96 w-max">
+        <table className="border-collapse border-spacing-0 rounded overflow-hidden bg-backgroundColor text-sm sm:text-lg w-max">
           <thead className="bg-backgroundColor border-b-2">
             <tr>
               <th>Package</th>
@@ -73,7 +73,7 @@ function Prices() {
         <h2 className="text-xl font-bold [text-shadow:_0_1px_1px_rgb(0_0_0_/_40%)]">
           Event Photography
         </h2>
-        <table className="border-collapse border-spacing-0 rounded overflow-hidden bg-backgroundColor text-lg h-96">
+        <table className="border-collapse border-spacing-0 rounded overflow-hidden bg-backgroundColor text-sm sm:text-lg">
           <thead className="bg-backgroundColor border-b-2">
             <tr>
               <th>Package</th>
