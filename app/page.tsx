@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Info from "@/components/Info";
 import Picture from "@/components/Picture";
 import Prices from "@/components/Prices";
@@ -45,6 +46,7 @@ export default function Home() {
       <section className="w-full flex flex-col lg:flex-row justify-center items-center gap-5 lg:gap-14 mt-5">
         <Prices />
       </section>
+      <Footer />
     </main>
   );
 }
