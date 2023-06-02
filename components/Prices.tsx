@@ -40,7 +40,7 @@ function Prices() {
         <h2 className="text-xl font-bold [text-shadow:_0_1px_1px_rgb(0_0_0_/_40%)]">
           Product Photography
         </h2>
-        <table className="border-collapse border-spacing-0 rounded overflow-hidden bg-backgroundColor text-lg h-96">
+        <table className="border-collapse border-spacing-0 rounded overflow-hidden bg-backgroundColor text-lg h-96 w-max">
           <thead className="bg-backgroundColor border-b-2">
             <tr>
               <th>Package</th>
@@ -49,32 +49,21 @@ function Prices() {
           </thead>
           <tbody>
             <tr className="bg-secondary">
-              <td className="text-left p-2">Basic Product Photography</td>
+              <td>Basic Product Photography</td>
               <td className="p-2">$200</td>
             </tr>
             <tr>
-              <td className="text-left p-2">Additional Products</td>
+              <td>Additional Products</td>
               <td className="p-2">$25 per product</td>
             </tr>
             <tr className="bg-secondary">
-              <td className="text-left pl-2">Edited Digital Images</td>
+              <td>Edited Digital Images</td>
               <td className="pr-2">
-                <table>
-                  <tbody>
-                    <tr>
-                      <td>5 Images</td>
-                      <td>$75</td>
-                    </tr>
-                    <tr>
-                      <td>10 Images</td>
-                      <td>$124</td>
-                    </tr>
-                    <tr>
-                      <td>20 Images</td>
-                      <td>$225</td>
-                    </tr>
-                  </tbody>
-                </table>
+                <ul>
+                  <li>$75 for 5 images</li>
+                  <li>$124 for 10 images</li>
+                  <li>$225 for 20 images</li>
+                </ul>
               </td>
             </tr>
           </tbody>

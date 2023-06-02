@@ -43,7 +43,7 @@ export default function Home() {
           {text && <Info text={text} />}
         </section>
       ))}
-      <section className="w-full flex flex-col lg:flex-row justify-center items-center gap-5 lg:gap-14 mt-5">
+      <section className="w-full flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-14 mt-5">
         <Prices />
       </section>
       <Footer />
